@@ -1,0 +1,60 @@
+.Menu {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    background-color: rgb(216, 196, 200);
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.Card {
+    display: flex;
+    align-items: center;
+}
+
+.Card >  * {
+  margin: 0 8px;
+}
+
+.menu-button {
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 8px;
+    height: max-content;
+}
+
+.shop-list-container {
+    padding: 10px;
+    margin-top: 11vh !important;
+    display: flex;
+    flex-direction: column;
+    width: 96%;
+    margin-left: 2%;
+    background-color: rgb(216, 196, 200);
+    margin-top: 10px;
+    align-items: center;
+    list-style-type: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.shoping-lis-item {
+    border: 3px solid white;
+    border-radius: 6px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.shoping-list-item-button {
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 8px;
+}
